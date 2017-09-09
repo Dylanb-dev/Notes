@@ -36,7 +36,7 @@ http://es6-features.org/ [[REPL/DEMO](https://babeljs.io/repl/)]
 - Learn [Basic React](https://medium.freecodecamp.org/all-the-fundamental-react-js-concepts-jammed-into-this-single-medium-article-c83f9b53eac2)
 - Install [Create react app](https://github.com/facebookincubator/create-react-app) and read the guide (yes its long)
 - Understand Promises with this [Article by eric elliott](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261)
-- Use styled components as much as possible
+- Use styled components as much as possible e.g
 ```jsx
 const FlexCentre = ({ children }) => 
   <div style={{ display: 'flex', justifyContent: 'center' }}>{children}</div>
@@ -53,10 +53,27 @@ with
   justifyContent: center;
 }
 ```
-- Use stateless components as much as possible
+- Use stateless components as much as possible e.g
 ```jsx
 const Button = ({ onClick, name }) => 
   <button onClick={onClick}>{name}</button>
+```
+- Use proptypes whenever possible e.g
+```jsx
+const ListOfNumbers = props => (
+  <ol className={props.className}>
+    {
+      props.numbers.map(number => (
+        <li>{number}</li>)
+      )
+    }
+  </ol>
+);
+
+ListOfNumbers.propTypes = {
+  className: React.PropTypes.string.isRequired,
+  numbers: React.PropTypes.arrayOf(React.PropTypes.number)
+};
 ```
 
 ### Optional
@@ -97,23 +114,3 @@ Great libraries worth a look
 - date-fns
 - Rambda
 - FairyTale (Task)
-
-## OTHER NOTES
-### Use proptypes whenever possible eg:
-
-```jsx
-const ListOfNumbers = props => (
-  <ol className={props.className}>
-    {
-      props.numbers.map(number => (
-        <li>{number}</li>)
-      )
-    }
-  </ol>
-);
-
-ListOfNumbers.propTypes = {
-  className: React.PropTypes.string.isRequired,
-  numbers: React.PropTypes.arrayOf(React.PropTypes.number)
-};
-```
