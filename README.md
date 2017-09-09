@@ -35,7 +35,7 @@ Now you should be able to use the editor format shortcut to get amazing formatti
 http://es6-features.org/ [[REPL/DEMO](https://babeljs.io/repl/)]
 - Learn [Basic React](https://medium.freecodecamp.org/all-the-fundamental-react-js-concepts-jammed-into-this-single-medium-article-c83f9b53eac2)
 - Install [Create react app](https://github.com/facebookincubator/create-react-app) and read the guide (yes its long)
-- Understand Promises with this [Article by eric elliott](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261)
+- Understand Promises with this [article by eric elliott](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261)
 - Use styled components as much as possible e.g
 ```jsx
 const FlexCentre = ({ children }) => 
@@ -83,8 +83,8 @@ ListOfNumbers.propTypes = {
 
 ## Second
 
-- Understand functional patterns that are everywhere in react and modern javscript.
-[FunFunFunction video series](https://www.youtube.com/watch?v=BMUiFMZr7vk) (watch the whole thing)
+- Understand functional patterns that are everywhere in react and modern javscript with the 
+[FunFunFunction video series](https://www.youtube.com/watch?v=BMUiFMZr7vk) (watch the whole series)
 - Learn [Jest Test Framework](https://facebook.github.io/jest/)(Comes built into create react app) [[REPL/DEMO](https://repl.it/languages/jest)] TIP: Use smoke test for all stateless/functional/presentational components and Jest snapshots for containers/class/state components.
 - Learn [Redux](http://redux.js.org/) and watch the [fantastic video series](https://egghead.io/courses/getting-started-with-redux)
 - Learn advanced routing with either [React-router v4](https://reacttraining.com/react-router/)(component based), [redux-first-router](https://github.com/faceyspacey/redux-first-router)(redux based)
