@@ -1,4 +1,4 @@
-# React and javascript
+# Learning guide for React and javascript
 
 
 ## Getting Started
@@ -10,7 +10,7 @@ Install MS Visual Studio it has minimal config and great performance.
 
 ### OPTIONAL - Install [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-My Editor settigns after installing these packages (using atom keybindings)
+My Editor settings after installing these packages (using atom keybindings)
 ```json
 {
   "editor.tabSize": 2,
