@@ -29,7 +29,7 @@ My Editor settings after installing these packages (using atom keybindings)
 
 Now you should be able to use the editor format shortcut to get amazing formatting instantly BAM!
 
-## First
+# 1. Modern javascript and React
 
 - Learn Javascript and basic es5/es6 syntax
 http://es6-features.org/ [[REPL/DEMO](https://babeljs.io/repl/)]
@@ -81,7 +81,7 @@ ListOfNumbers.propTypes = {
 [React Armory](https://reactarmory.com/)
 - Learn basic routing with [react-mini-router](https://github.com/larrymyers/react-mini-router)(URL based) or similar.
 
-## Second
+# 2. More Javascript, testing and tooling for react
 
 - Understand functional patterns that are everywhere in react and modern javscript with the 
 [FunFunFunction video series](https://www.youtube.com/watch?v=BMUiFMZr7vk) (watch the whole series)
@@ -95,7 +95,7 @@ ListOfNumbers.propTypes = {
 - Explore functional and fundamental javascript concepts with Eric Elliot
 [Functional Javascript by Eric Elliott](https://medium.com/javascript-scene/the-rise-and-fall-and-rise-of-functional-programming-composable-software-c2d91b424c8c) (the whole series is great)
 
-## Third
+# 3. Emerging trends and advanced tooling
 
 - Understand advanced functional patterns that influence emerging techniques in javascript and react.
 [Frisby composable javascript course](https://egghead.io/courses/professor-frisby-introduces-composable-functional-javascript) (you dont need to finish this, check the code if you are confident)
