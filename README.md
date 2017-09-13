@@ -3,9 +3,8 @@
 
 ## Getting Started
 
-Install MS Visual Studio it has minimal config and great performance.
+[Install MS Visual Studio](https://code.visualstudio.com/download) it has minimal config and great performance.
 
-- [Offical website for download](https://code.visualstudio.com/download)
 - [Great introduction video](https://www.youtube.com/watch?v=7OussBP55lg)
 
 ### OPTIONAL - Install [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
