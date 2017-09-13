@@ -103,7 +103,7 @@ ListOfNumbers.propTypes = {
 - Learn how to apply [Recompose](https://github.com/acdlite/recompose) and write functional UI [Example](https://github.com/jxnblk/rebass)
 
 ### Optional
-- Explore styled components
+- Explore styled component library for better css management
 - Check out rxjs
 
 ## Resources
