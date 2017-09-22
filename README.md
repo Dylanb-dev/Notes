@@ -75,6 +75,25 @@ ListOfNumbers.propTypes = {
 };
 ```
 
+- Avoid functions in render as much as possible e.g
+```jsx
+<button
+ onClick={function}
+ />
+```
+NOT
+```jsx
+<button
+ onClick={() => function()}
+ />
+```
+ALSO watch out for this as it will call the function on each render
+```jsx
+<button
+ onClick={function()}
+/>
+```
+
 ### Optional
 - Learn react from a lower level
 [React Armory](https://reactarmory.com/)
@@ -102,6 +121,7 @@ ListOfNumbers.propTypes = {
 - Learn how to apply [Recompose](https://github.com/acdlite/recompose) and write functional UI [Example](https://github.com/jxnblk/rebass)
 
 ### Optional
+  - Dr boolneans [guide to functional Programming](https://drboolean.gitbooks.io/mostly-adequate-guide/content/) [ [ES6 Version](https://github.com/christiantakle/mostly-adequate-guide/) ]
 - Explore styled component library for better css management
 - Check out rxjs
 
