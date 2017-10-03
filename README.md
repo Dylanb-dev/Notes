@@ -101,6 +101,7 @@ ALSO watch out for this as it will call the function on each render
 
 # 2. More Javascript, testing and tooling for react
 
+- [Composing react components] (https://medium.com/javascript-inside/the-elegance-of-react-ebc21a2dcd19)
 - Understand functional patterns that are everywhere in react and modern javscript with the 
 [FunFunFunction video series](https://www.youtube.com/watch?v=BMUiFMZr7vk) (watch the whole series)
 - Learn [Jest Test Framework](https://facebook.github.io/jest/)(Comes built into create react app) [[REPL/DEMO](https://repl.it/languages/jest)] TIP: Use smoke test for all stateless/functional/presentational components and Jest snapshots for containers/class/state components.
