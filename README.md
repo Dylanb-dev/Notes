@@ -97,7 +97,6 @@ ALSO watch out for this as it will call the function on each render
 ### Optional
 - Learn react from a lower level
 [React Armory](https://reactarmory.com/)
-- Learn basic routing with [react-mini-router](https://github.com/larrymyers/react-mini-router)(URL based) or similar.
 
 # 2. More Javascript, testing and tooling for react
 
